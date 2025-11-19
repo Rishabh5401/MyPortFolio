@@ -32,7 +32,7 @@ const Hero = ({ personalInfo }) => {
           </div>
 
           {/* Social Links - UPDATED WITH LEETCODE & HACKERRANK */}
-          <div className="flex items-center justify-center md:justify-start gap-5">
+          <div className="flex items-center justify-center md:justify-start gap-5 relative z-50">
             
             {/* GitHub */}
             <a href={personalInfo.socials.github} target="_blank" rel="noreferrer" className="text-slate-400 hover:text-white transition-colors transform hover:scale-110">

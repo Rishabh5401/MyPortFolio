@@ -21,9 +21,9 @@ export const personalInfo = {
   location: "Noida, India",
   profileImage: profileImg,
   socials: {
-    linkedin: "https://www.linkedin.com", 
-    github: "https://github.com",         
-    leetcode: "https://leetcode.com",  
+    linkedin: "https://www.linkedin.com/in/rishabhsharma-javafullstack/", 
+    github: "https://github.com/Rishabh5401",         
+    leetcode: "https://leetcode.com/u/Rishabh5401/",  
     hackerrank: "https://www.hackerrank.com/profile/rasus8800"   
   }
 };
