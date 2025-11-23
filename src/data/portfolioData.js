@@ -34,6 +34,7 @@ export const skills = [
     icon: <Code size={20} />,
     items: [
       { name: "Java", url: "https://skillicons.dev/icons?i=java" },
+      { name: "Java Swing", url: "https://skillicons.dev/icons?i=java" }, // Added Swing
       { name: "JavaScript", url: "https://skillicons.dev/icons?i=js" },
       { name: "Python", url: "https://skillicons.dev/icons?i=python" },
       { name: "SQL", url: "https://skillicons.dev/icons?i=mysql" }
@@ -41,15 +42,14 @@ export const skills = [
   },
   { 
     category: "Data Science & AI", 
-    icon: <Cpu size={20} />, // Changed icon to CPU to match AI/Data theme
+    icon: <Cpu size={20} />, 
     items: [
-      // Specific libraries used in your Tata & Sales Analysis projects
       { name: "Pandas", url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" },
       { name: "NumPy", url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" },
       { name: "Matplotlib", url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" },
       { name: "Scikit-Learn", url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" },
       { name: "Prompt Eng.", url: "https://cdn-icons-png.flaticon.com/512/8637/8637101.png" }
-    ]
+    ] 
   },
   { 
     category: "Frontend Dev", 
@@ -66,11 +66,11 @@ export const skills = [
     category: "Backend & DB", 
     icon: <Server size={20} />,
     items: [
+      { name: "Spring Boot", url: "https://skillicons.dev/icons?i=spring" }, // Added Spring Boot
       { name: "Node.js", url: "https://skillicons.dev/icons?i=nodejs" },
       { name: "Express", url: "https://skillicons.dev/icons?i=express" },
       { name: "MongoDB", url: "https://skillicons.dev/icons?i=mongo" },
       { name: "MySQL", url: "https://skillicons.dev/icons?i=mysql" },
-      // Java JDBC/Swing doesn't have a distinct logo, covered by Java main tag
     ] 
   },
   { 
